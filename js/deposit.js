@@ -23,7 +23,7 @@ document.getElementById("btn-deposit").addEventListener("click", function () {
 	depositMain.innerText = currentDepositAmount;
 
 	// Step -5 get balance current total
-	const balanceTotal = document.getElementById("balance-total");
+	const balanceTotal = document.getElementById("total-balance");
 	const previousBalanceTotalString = balanceTotal.innerText;
 	const previousBalanceTotalFloat = parseFloat(previousBalanceTotalString);
 	// console.log(typeof previousBalanceTotalFloat);
